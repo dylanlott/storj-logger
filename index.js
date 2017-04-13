@@ -61,9 +61,9 @@ StorjLogger.prototype.error = function(args) {
   return this.log.error(arguments);
 }
 
-StorjLogger.prototype.error = function(args) {
+StorjLogger.prototype.fatal = function(args) {
   if (!args) {
-    return this.log.error('No message provided.');
+    return this.log.fatal('No message provided.');
   }
   return this.log.fatal(arguments);
 }
