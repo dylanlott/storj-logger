@@ -1,0 +1,29 @@
+{
+  "name": "storj-logger",
+  "version": "1.0.0",
+  "description": "A logger for the Storj platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Storj/storj-logger.git"
+  },
+  "keywords": [
+    "storj",
+    "logger"
+  ],
+  "author": "Dylan Lott",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Storj/storj-logger/issues"
+  },
+  "homepage": "https://github.com/Storj/storj-logger#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.9"
+  }
+}
